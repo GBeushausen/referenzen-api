@@ -1,0 +1,29 @@
+uuid: 578a7360-ec9b-44f0-8265-564350d67473
+langcode: en
+status: false
+dependencies: {  }
+active_version: aecf704cf1d7ba51
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: dashboard_placeholder
+        label: Platzhalter
+        label_display: '0'
+        provider: dashboard
+    fallback_metadata:
+      slot_definitions: null
+  c02b777b3b56af3d:
+    settings:
+      default_settings:
+        id: dashboard_placeholder
+        label: Placeholder
+        label_display: '0'
+        provider: dashboard
+    fallback_metadata:
+      slot_definitions: null
+label: Platzhalter
+id: block.dashboard_placeholder
+provider: dashboard
+source: block
+source_local_id: dashboard_placeholder

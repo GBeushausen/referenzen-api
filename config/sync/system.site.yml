@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
+langcode: de
+uuid: b2c56480-f5e7-4993-bdc8-1f616da382a8
+name: 'Referenzen API'
+mail: info@gunnar-beushausen.de
+slogan: ''
+page:
+  403: /user/login
+  404: ''
+  front: /page/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: de
+mail_notification: null

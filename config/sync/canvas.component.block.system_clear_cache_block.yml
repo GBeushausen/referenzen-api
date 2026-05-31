@@ -1,0 +1,31 @@
+uuid: ce37a3c1-de25-4ed3-9ffb-61b82cc2977b
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+active_version: 783cb0ce57442d93
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: system_clear_cache_block
+        label: 'Cache leeren'
+        label_display: '0'
+        provider: system
+    fallback_metadata:
+      slot_definitions: null
+  435d13d2208c8fee:
+    settings:
+      default_settings:
+        id: system_clear_cache_block
+        label: 'Clear cache'
+        label_display: '0'
+        provider: system
+    fallback_metadata:
+      slot_definitions: null
+label: 'Cache leeren'
+id: block.system_clear_cache_block
+provider: system
+source: block
+source_local_id: system_clear_cache_block

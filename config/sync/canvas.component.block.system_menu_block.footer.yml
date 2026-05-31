@@ -1,0 +1,39 @@
+uuid: b58c5417-57aa-4067-b979-cbfdcf1b5396
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+active_version: 08d9ca0814bf8a5b
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'system_menu_block:footer'
+        label: Fußzeile
+        label_display: '0'
+        provider: system
+        level: 1
+        depth: null
+        expand_all_items: false
+    fallback_metadata:
+      slot_definitions: null
+  68bdb40e1ac48125:
+    settings:
+      default_settings:
+        id: 'system_menu_block:footer'
+        label: Footer
+        label_display: '0'
+        provider: system
+        level: 1
+        depth: null
+        expand_all_items: false
+    fallback_metadata:
+      slot_definitions: null
+label: Fußzeile
+id: block.system_menu_block.footer
+provider: system
+source: block
+source_local_id: 'system_menu_block:footer'

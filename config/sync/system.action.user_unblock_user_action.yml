@@ -1,0 +1,13 @@
+uuid: c527aa3f-507c-44fd-8d07-a1dc1299773e
+langcode: de
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: SPsUXsR3Rc8d1y3gewzaAKWa1ncea_ywXX3f7LTn7k0
+id: user_unblock_user_action
+label: 'Ausgewählte Benutzer entsperren'
+type: user
+plugin: user_unblock_user_action
+configuration: {  }

@@ -1,0 +1,31 @@
+uuid: 50644cfe-75be-48b4-b178-647ca77d69bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+active_version: e0b795db40101618
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'language_block:language_interface'
+        label: Sprachumschalter
+        label_display: '0'
+        provider: language
+    fallback_metadata:
+      slot_definitions: null
+  f84882f46cbe4bd5:
+    settings:
+      default_settings:
+        id: 'language_block:language_interface'
+        label: 'Language switcher'
+        label_display: '0'
+        provider: language
+    fallback_metadata:
+      slot_definitions: null
+label: Sprachumschalter
+id: block.language_block.language_interface
+provider: language
+source: block
+source_local_id: 'language_block:language_interface'

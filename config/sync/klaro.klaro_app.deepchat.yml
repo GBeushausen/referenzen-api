@@ -1,0 +1,30 @@
+uuid: a04c4211-f841-4ead-b644-3def7ce2a5b1
+langcode: de
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: OMK9vMBaKPKJ8-CWEuVow08R1qVHG67bkSVrN0_wRpM
+id: deepchat
+label: Deepchat
+description: 'Deepchat ist ein Chatbot. Ihre Daten werden an externe KI-Anbieter weitergegeben. Je nach Einstellungen kann ein Sitzungscookie für den Chatverlauf geschrieben werden. Weitere Informationen finden Sie in der Datenschutzrichtlinie.'
+default: false
+purposes:
+  - livechat
+cookies:
+  -
+    regex: '^deepChatState_.*$'
+    path: ''
+    domain: ''
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: true
+contextual_consent_text: 'Load service chatbot Deepchat (uses session cookie and sends data to external service)?'
+info_url: ''
+privacy_policy_url: ''
+javascripts: {  }
+callback_code: ''
+wrapper_identifier:
+  - deep-chat
+attachments: {  }
+weight: 0

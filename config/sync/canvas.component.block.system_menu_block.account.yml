@@ -1,0 +1,39 @@
+uuid: 3d739bdb-0df8-438f-900d-5aab68ae154a
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+active_version: 4f98440fe99724de
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'system_menu_block:account'
+        label: Benutzermenü
+        label_display: '0'
+        provider: system
+        level: 1
+        depth: null
+        expand_all_items: false
+    fallback_metadata:
+      slot_definitions: null
+  4b3fb59b8eadb12d:
+    settings:
+      default_settings:
+        id: 'system_menu_block:account'
+        label: 'User account menu'
+        label_display: '0'
+        provider: system
+        level: 1
+        depth: null
+        expand_all_items: false
+    fallback_metadata:
+      slot_definitions: null
+label: Benutzermenü
+id: block.system_menu_block.account
+provider: system
+source: block
+source_local_id: 'system_menu_block:account'

@@ -1,0 +1,13 @@
+uuid: a17e8595-eb7f-4c24-8110-8fc30a967ed1
+langcode: de
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: VVyUA6PIaVeGtcIbgEWqJ6SYDiJdReBeojFswURFpKs
+id: media_save_action
+label: 'Medium speichern'
+type: media
+plugin: 'entity:save_action:media'
+configuration: {  }

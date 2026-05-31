@@ -1,0 +1,25 @@
+uuid: eb3c7b87-5aea-4fab-af10-88de4b78710a
+langcode: de
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: xGsGOe4iv5uPr7X38FsUPaLmRoziapSCPgEsNTIyTZ0
+id: leaflet
+label: 'Externe Karte (Leaflet)'
+description: 'Dieser Dienst lädt eine externe Karte via Leaflet. In der Datenschutzerklärung finden sich weitere Informationen über den Anbieter des Karten-Dienstes.'
+default: false
+purposes:
+  - external_content
+cookies: {  }
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: null
+contextual_consent_text: null
+info_url: ''
+privacy_policy_url: ''
+javascripts: {  }
+callback_code: ''
+wrapper_identifier: {  }
+attachments: {  }
+weight: 0

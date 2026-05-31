@@ -1,0 +1,31 @@
+uuid: 7461c206-093b-4fb7-9067-db2b03b6dc40
+langcode: en
+status: false
+dependencies:
+  module:
+    - navigation
+active_version: 24a2fe7c59846f2c
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: navigation_shortcuts
+        label: Navigationskurzbefehle
+        label_display: '0'
+        provider: navigation
+    fallback_metadata:
+      slot_definitions: null
+  2891751bf7069a8f:
+    settings:
+      default_settings:
+        id: navigation_shortcuts
+        label: 'Navigation Shortcuts'
+        label_display: '0'
+        provider: navigation
+    fallback_metadata:
+      slot_definitions: null
+label: Navigationskurzbefehle
+id: block.navigation_shortcuts
+provider: navigation
+source: block
+source_local_id: navigation_shortcuts
