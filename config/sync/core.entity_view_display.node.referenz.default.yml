@@ -1,0 +1,166 @@
+uuid: 22e538ac-34c6-40dd-9d20-3906ea6310b8
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.referenz.field_beschreibung_agentur
+    - field.field.node.referenz.field_beschreibung_freelancer
+    - field.field.node.referenz.field_bild
+    - field.field.node.referenz.field_brand_awareness
+    - field.field.node.referenz.field_einsatzbezeichnung
+    - field.field.node.referenz.field_exklusive_agentur
+    - field.field.node.referenz.field_exklusive_freelancer
+    - field.field.node.referenz.field_kunde
+    - field.field.node.referenz.field_kundenlogo
+    - field.field.node.referenz.field_link
+    - field.field.node.referenz.field_startdatum
+    - field.field.node.referenz.field_technologien
+    - field.field.node.referenz.field_text_agentur
+    - field.field.node.referenz.field_text_freelancer
+    - field.field.node.referenz.field_zeitraum
+    - node.type.referenz
+  module:
+    - datetime
+    - link
+    - text
+    - user
+id: node.referenz.default
+targetEntityType: node
+bundle: referenz
+mode: default
+content:
+  field_beschreibung_agentur:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 115
+    region: content
+  field_beschreibung_freelancer:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 114
+    region: content
+  field_bild:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_brand_awareness:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_einsatzbezeichnung:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_exklusive_agentur:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 117
+    region: content
+  field_exklusive_freelancer:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 116
+    region: content
+  field_kunde:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_kundenlogo:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_startdatum:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 113
+    region: content
+  field_technologien:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_text_agentur:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  field_text_freelancer:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_zeitraum:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

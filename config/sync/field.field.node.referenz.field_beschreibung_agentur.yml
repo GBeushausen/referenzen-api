@@ -1,0 +1,24 @@
+uuid: 2d4e7a78-d99f-4c59-b145-a2c9d567ce61
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_beschreibung_agentur
+    - filter.format.content_format
+    - node.type.referenz
+  module:
+    - text
+id: node.referenz.field_beschreibung_agentur
+field_name: field_beschreibung_agentur
+entity_type: node
+bundle: referenz
+label: 'Beschreibung Agentur'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - content_format
+field_type: text_long

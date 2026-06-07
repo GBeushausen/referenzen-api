@@ -1,0 +1,19 @@
+uuid: a11a01b2-bf71-4f9c-962c-521be5431471
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kunde
+    - node.type.referenz
+id: node.referenz.field_kunde
+field_name: field_kunde
+entity_type: node
+bundle: referenz
+label: Kunde
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

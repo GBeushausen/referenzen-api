@@ -1,0 +1,24 @@
+uuid: 32e049f6-24cb-4688-8ec3-9e96792d1cdf
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_beschreibung_freelancer
+    - filter.format.content_format
+    - node.type.referenz
+  module:
+    - text
+id: node.referenz.field_beschreibung_freelancer
+field_name: field_beschreibung_freelancer
+entity_type: node
+bundle: referenz
+label: 'Beschreibung Freelancer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - content_format
+field_type: text_long

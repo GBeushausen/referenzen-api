@@ -74,3 +74,9 @@
 /drupal
 .idea
 .vscode
+
+# Secrets — never commit (see CLAUDE.md: keys go via Key + easy_encryption, not config)
+# Master encryption key material (machine-local)
+/.easy_encryption/
+# Plaintext key config exported by `drush cex` (key_provider: config) — contains the raw secret
+/config/sync/key.key.openai.yml

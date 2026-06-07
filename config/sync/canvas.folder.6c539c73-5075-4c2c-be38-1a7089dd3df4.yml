@@ -1,0 +1,9 @@
+uuid: 6c539c73-5075-4c2c-be38-1a7089dd3df4
+langcode: de
+status: true
+dependencies: {  }
+name: Projekt-Browser
+configEntityTypeId: component
+weight: 0
+items:
+  - block.project_browser_block.ai_dashboard_recommended

@@ -1,0 +1,40 @@
+uuid: ec5c99c3-2202-4f31-95db-ea5afbdc5c9a
+langcode: de
+status: true
+dependencies:
+  module:
+    - ai_dashboard
+active_version: dc35560d81ae34d5
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: ai_operations_status
+        label: 'Status der KI-Operationen'
+        label_display: '0'
+        provider: ai_dashboard
+    fallback_metadata:
+      slot_definitions: null
+  da2578057a3a6ad7:
+    settings:
+      default_settings:
+        id: ai_operations_status
+        label: 'AI Operations Status'
+        label_display: '0'
+        provider: ai_dashboard
+    fallback_metadata:
+      slot_definitions: null
+  dc35560d81ae34d5:
+    settings:
+      default_settings:
+        id: ai_operations_status
+        label: 'Status der KI-Operationen'
+        label_display: '0'
+        provider: ai_dashboard
+    fallback_metadata:
+      slot_definitions: null
+label: 'Status der KI-Operationen'
+id: block.ai_operations_status
+provider: ai_dashboard
+source: block
+source_local_id: ai_operations_status

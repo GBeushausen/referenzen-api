@@ -1,0 +1,40 @@
+uuid: e26d6dc8-6d89-4eb6-baa0-dd28a109a53b
+langcode: de
+status: true
+dependencies:
+  module:
+    - ai_dashboard
+active_version: 784d4b0a36c334c1
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: admin_menu_links
+        label: 'Links zum Admin-Menü'
+        label_display: '0'
+        provider: ai_dashboard
+    fallback_metadata:
+      slot_definitions: null
+  5f98ac8d0e4c2e21:
+    settings:
+      default_settings:
+        id: admin_menu_links
+        label: 'Admin Menu Links'
+        label_display: '0'
+        provider: ai_dashboard
+    fallback_metadata:
+      slot_definitions: null
+  784d4b0a36c334c1:
+    settings:
+      default_settings:
+        id: admin_menu_links
+        label: 'Links zum Admin-Menü'
+        label_display: '0'
+        provider: ai_dashboard
+    fallback_metadata:
+      slot_definitions: null
+label: 'Links zum Admin-Menü'
+id: block.admin_menu_links
+provider: ai_dashboard
+source: block
+source_local_id: admin_menu_links

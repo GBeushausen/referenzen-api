@@ -1,0 +1,44 @@
+component_context:
+  block:
+    enabled: 1
+    data: |
+      block.admin_menu_links:
+        id: block.admin_menu_links
+        name: 'Links zum Admin-Menü'
+        description: 'Links zum Admin-Menü'
+      block.ai_operations_status:
+        id: block.ai_operations_status
+        name: 'Status der KI-Operationen'
+        description: 'Status der KI-Operationen'
+      block.ai_setup_ai_provider:
+        id: block.ai_setup_ai_provider
+        name: 'KI-Anbieter einrichten'
+        description: 'KI-Anbieter einrichten'
+      block.language_block.language_interface:
+        id: block.language_block.language_interface
+        name: Sprachumschalter
+        description: Sprachumschalter
+      block.project_browser_block.ai_dashboard_recommended:
+        id: block.project_browser_block.ai_dashboard_recommended
+        name: 'Empfohlene KI-Rezepte'
+        description: 'Empfohlene KI-Rezepte'
+      block.system_branding_block:
+        id: block.system_branding_block
+        name: 'Branding der Website'
+        description: 'Branding der Website'
+      block.system_breadcrumb_block:
+        id: block.system_breadcrumb_block
+        name: Pfadnavigation
+        description: Pfadnavigation
+      block.system_menu_block.footer:
+        id: block.system_menu_block.footer
+        name: Fußzeile
+        description: Fußzeile
+      block.system_menu_block.main:
+        id: block.system_menu_block.main
+        name: Hauptnavigation
+        description: Hauptnavigation
+      block.system_powered_by_block:
+        id: block.system_powered_by_block
+        name: 'Angetrieben durch Drupal'
+        description: 'Angetrieben durch Drupal'

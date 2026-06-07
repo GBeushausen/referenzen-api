@@ -7,7 +7,7 @@ consentModal:
     name: Datenschutzhinweise
     text: |
       Für weitere Informationen bitte unsere {privacyPolicy} lesen.
-    url: 'internal:/&lt;front&gt;'
+    url: 'internal:/privacy-policy'
 consentNotice:
   title: 'Verwendung von personenbezogenen Daten und Cookies'
   changeDescription: 'Es gab Änderungen seit dem letzten Besuch und die Einwilligungen müssen aktualisiert werden.'

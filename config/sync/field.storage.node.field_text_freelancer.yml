@@ -1,0 +1,19 @@
+uuid: 6a5f7fe1-dd49-43db-8d5f-e04b0591cb55
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_text_freelancer
+field_name: field_text_freelancer
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

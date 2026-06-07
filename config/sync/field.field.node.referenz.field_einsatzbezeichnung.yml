@@ -1,0 +1,19 @@
+uuid: 73f721fc-55fd-4bdc-a382-96c001bce279
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_einsatzbezeichnung
+    - node.type.referenz
+id: node.referenz.field_einsatzbezeichnung
+field_name: field_einsatzbezeichnung
+entity_type: node
+bundle: referenz
+label: Einsatzbezeichnung
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

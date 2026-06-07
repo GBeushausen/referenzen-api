@@ -5,7 +5,7 @@ dependencies: {  }
 _core:
   default_config_hash: HBeBrdoMQ8HHvIcge46zv21fgnD6c8V6FjQ_h1eiQkY
 id: cms
-label: Funktional
+label: 'Drupal CMS'
 description: 'Speichern von Daten (z.B. Cookie für die Benutzersitzung) in Ihrem Browser (erforderlich für die Nutzung dieser Website).'
 default: true
 purposes:

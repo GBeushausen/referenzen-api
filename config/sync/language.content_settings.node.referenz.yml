@@ -1,0 +1,11 @@
+uuid: d6e56be3-235b-4f5e-95d9-f66ae4e58da1
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.referenz
+id: node.referenz
+target_entity_type_id: node
+target_bundle: referenz
+default_langcode: site_default
+language_alterable: false

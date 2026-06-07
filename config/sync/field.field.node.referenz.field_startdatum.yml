@@ -1,0 +1,21 @@
+uuid: b4518092-279b-472c-8701-40681fe9c184
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_startdatum
+    - node.type.referenz
+  module:
+    - datetime
+id: node.referenz.field_startdatum
+field_name: field_startdatum
+entity_type: node
+bundle: referenz
+label: Startdatum
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

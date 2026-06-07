@@ -29,7 +29,58 @@ settings:
       - redo
       - removeFormat
       - sourceEditing
+      - aickeditor
   plugins:
+    ai_ckeditor_ai:
+      dialog:
+        autoresize: 'min-width: 600px'
+        height: '750'
+        width: '900'
+        dialog_class: ai-ckeditor-modal
+      plugins:
+        ai_agents_ckeditor:
+          agents: {  }
+          enabled: true
+        ai_automators_ckeditor:
+          enabled: true
+          workflows:
+            test:
+              enabled: false
+              inputs: {  }
+              selected_input: ''
+              require_selection: false
+              write_mode: replace
+              output: ''
+        ai_ckeditor_completion:
+          enabled: true
+          provider: openai__gpt-5.4
+        ai_ckeditor_help:
+          enabled: false
+        ai_ckeditor_modify_prompt:
+          enabled: true
+          provider: openai__gpt-5.4-mini
+        ai_ckeditor_reformat_html:
+          enabled: true
+          provider: openai__gpt-5.4-mini
+        ai_ckeditor_spellfix:
+          enabled: false
+          provider: openai__gpt-5.2
+        ai_ckeditor_summarize:
+          enabled: false
+          provider: openai__gpt-5.2
+        ai_ckeditor_tone:
+          enabled: true
+          provider: openai__gpt-5.2
+          autocreate: false
+          tone_vocabulary: tags
+          use_description: false
+        ai_ckeditor_translate:
+          enabled: false
+          provider: openai__gpt-5.2
+          language_source: tax
+          autocreate: false
+          translate_vocabulary: tags
+          use_description: false
     ckeditor5_alignment:
       enabled_alignments:
         - center

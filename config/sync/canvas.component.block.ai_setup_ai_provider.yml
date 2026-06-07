@@ -1,0 +1,40 @@
+uuid: 5f0f9c11-1de0-4f7e-870f-6762a885ce13
+langcode: de
+status: true
+dependencies:
+  module:
+    - ai_dashboard
+active_version: d663fff7a11d3940
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: ai_setup_ai_provider
+        label: 'KI-Anbieter einrichten'
+        label_display: '0'
+        provider: ai_dashboard
+    fallback_metadata:
+      slot_definitions: null
+  8981e0d371c71875:
+    settings:
+      default_settings:
+        id: ai_setup_ai_provider
+        label: 'Setup AI Provider'
+        label_display: '0'
+        provider: ai_dashboard
+    fallback_metadata:
+      slot_definitions: null
+  d663fff7a11d3940:
+    settings:
+      default_settings:
+        id: ai_setup_ai_provider
+        label: 'KI-Anbieter einrichten'
+        label_display: '0'
+        provider: ai_dashboard
+    fallback_metadata:
+      slot_definitions: null
+label: 'KI-Anbieter einrichten'
+id: block.ai_setup_ai_provider
+provider: ai_dashboard
+source: block
+source_local_id: ai_setup_ai_provider

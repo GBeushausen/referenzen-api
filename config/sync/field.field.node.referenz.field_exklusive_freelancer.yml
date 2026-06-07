@@ -1,0 +1,21 @@
+uuid: 8a53e011-3a09-4b70-a087-59f768ab7e48
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_exklusive_freelancer
+    - node.type.referenz
+id: node.referenz.field_exklusive_freelancer
+field_name: field_exklusive_freelancer
+entity_type: node
+bundle: referenz
+label: 'Exklusive Freelancer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Freelancer
+  off_label: Agentur
+field_type: boolean

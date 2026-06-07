@@ -1,0 +1,21 @@
+uuid: 7ea7b18a-c50f-426c-96b9-76cf926498bb
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_exklusive_agentur
+    - node.type.referenz
+id: node.referenz.field_exklusive_agentur
+field_name: field_exklusive_agentur
+entity_type: node
+bundle: referenz
+label: 'Exklusive Agentur'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: An
+  off_label: Aus
+field_type: boolean

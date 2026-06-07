@@ -1,0 +1,23 @@
+_core:
+  default_config_hash: Dy0eQlnGPF7PYN3XkrnJyk2bh4L195ZSzCbWLTV-HS4
+langcode: de
+prompts:
+  complete: ''
+  modify_prompt: |
+    Verwenden Sie die folgenden Anweisungen, um diesen Text zu bearbeiten. Geben Sie nur den bearbeiteten Text ohne Erläuterungen zurück.
+    Anweisungen: {{ modify_prompt }}
+    Zu verarbeitender Text:
+  reformat: |
+    Wählen Sie mindestens ein AI-Anbietermodul aus der Liste auf der AI-Modul-Homepage aus, fügen Sie es zu Ihrem Projekt hinzu, installieren und konfigurieren Sie es. Aktualisieren Sie dann die AI-Einstellungen auf dieser Seite.
+  spellfix: |
+    Bitte richten Sie diesen Text so ein, dass er mit semantischem HTML markiert ist und nur Listen, Überschriften oder Absatz-Tags verwendet:
+  summarise: |
+    Fasse den folgenden Text in der gleichen Sprache zusammen,
+    Gib den Originaltext nicht wieder und gib ihn nicht Wort für Wort wieder.
+
+    Hier ist der Originaltext:
+  tone: |
+    Ändere den Ton des folgenden Textes in {{ tone}}, indem Sie die gleiche Sprache wie der folgende Text verwenden.
+  translate: |
+    Reagieren Sie nicht, sondern antworten Sie nur mit dem übersetzten Text, keine Höflichkeiten.
+    Übersetzen Sie den folgenden Text in {{ lang }}

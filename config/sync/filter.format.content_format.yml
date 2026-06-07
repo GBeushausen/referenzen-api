@@ -2,6 +2,19 @@ uuid: 6ef8e501-aeef-4127-a455-61134a0f5fec
 langcode: en
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.media.16_9_medium
+    - core.entity_view_mode.media.16_9_small
+    - core.entity_view_mode.media.1_1_square_medium
+    - core.entity_view_mode.media.1_1_square_small
+    - core.entity_view_mode.media.3_4_medium
+    - core.entity_view_mode.media.3_4_small
+    - core.entity_view_mode.media.4_3_medium
+    - core.entity_view_mode.media.4_3_small
+    - core.entity_view_mode.media.9_16_medium
+    - core.entity_view_mode.media.9_16_small
+    - core.entity_view_mode.media.medium
+    - core.entity_view_mode.media.small
   module:
     - linkit
     - media
@@ -32,18 +45,12 @@ filters:
   filter_html:
     id: filter_html
     provider: filter
-    status: true
+    status: false
     weight: -10
     settings:
-      allowed_html: '<br> <p class="text-align-left text-align-center text-align-right text-align-justify"> <h2 class="text-align-left text-align-center text-align-right text-align-justify"> <h3 class="text-align-left text-align-center text-align-right text-align-justify"> <h4 class="text-align-left text-align-center text-align-right text-align-justify"> <h5 class="text-align-left text-align-center text-align-right text-align-justify"> <h6 class="text-align-left text-align-center text-align-right text-align-justify"> <strong> <em> <blockquote> <a href data-entity-type data-entity-uuid data-entity-substitution> <ul> <ol reversed start> <li> <table> <tr> <td rowspan colspan> <th rowspan colspan> <thead> <tbody> <tfoot> <caption> <drupal-media data-entity-type data-entity-uuid alt data-view-mode data-caption data-align>'
+      allowed_html: ''
       filter_html_help: false
       filter_html_nofollow: false
-  filter_htmlcorrector:
-    id: filter_htmlcorrector
-    provider: filter
-    status: true
-    weight: 10
-    settings: {  }
   filter_image_lazy_load:
     id: filter_image_lazy_load
     provider: filter

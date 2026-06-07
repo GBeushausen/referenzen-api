@@ -1,0 +1,55 @@
+uuid: 57fdde22-d6b8-49c4-8a88-cc725a98f27c
+langcode: de
+status: true
+dependencies:
+  module:
+    - project_browser
+active_version: 4d71e55dfac7f789
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'project_browser_block:ai_dashboard_recommended'
+        label: 'Empfohlene KI-Rezepte'
+        label_display: '0'
+        provider: project_browser
+        paginate: true
+        page_sizes: '12, 24, 36, 48'
+        sort_options: null
+        default_sort: null
+        filters: null
+    fallback_metadata:
+      slot_definitions: null
+  016f5e9e845b293d:
+    settings:
+      default_settings:
+        id: 'project_browser_block:ai_dashboard_recommended'
+        label: 'Recommended AI Recipes'
+        label_display: '0'
+        provider: project_browser
+        paginate: true
+        page_sizes: '12, 24, 36, 48'
+        sort_options: null
+        default_sort: null
+        filters: null
+    fallback_metadata:
+      slot_definitions: null
+  4d71e55dfac7f789:
+    settings:
+      default_settings:
+        id: 'project_browser_block:ai_dashboard_recommended'
+        label: 'Empfohlene KI-Rezepte'
+        label_display: '0'
+        provider: project_browser
+        paginate: true
+        page_sizes: '12, 24, 36, 48'
+        sort_options: null
+        default_sort: null
+        filters: null
+    fallback_metadata:
+      slot_definitions: null
+label: 'Empfohlene KI-Rezepte'
+id: block.project_browser_block.ai_dashboard_recommended
+provider: project_browser
+source: block
+source_local_id: 'project_browser_block:ai_dashboard_recommended'

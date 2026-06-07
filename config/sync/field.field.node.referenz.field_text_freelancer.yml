@@ -1,0 +1,24 @@
+uuid: 81498eb3-e053-4ac1-babc-d8d1ba7e4fba
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_freelancer
+    - filter.format.content_format
+    - node.type.referenz
+  module:
+    - text
+id: node.referenz.field_text_freelancer
+field_name: field_text_freelancer
+entity_type: node
+bundle: referenz
+label: 'Text Freelancer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - content_format
+field_type: text_long

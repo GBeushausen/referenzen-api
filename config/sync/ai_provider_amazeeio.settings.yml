@@ -1,0 +1,9 @@
+api_key: amazeeio_ai
+moderation: false
+amazee_host: 'https://api.amazee.ai'
+host: 'https://llm.de103.amazee.ai'
+postgres_host: vectordb1.de103.amazee.ai
+postgres_port: 5432
+postgres_default_database: db_d15e5764
+postgres_username: user_ef290e2c
+postgres_password: amazeeio_ai_database

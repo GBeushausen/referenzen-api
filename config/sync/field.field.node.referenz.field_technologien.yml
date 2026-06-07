@@ -1,0 +1,29 @@
+uuid: 1ee7eaaf-9b86-4727-ac57-bd79400f6c84
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_technologien
+    - node.type.referenz
+    - taxonomy.vocabulary.technologien
+id: node.referenz.field_technologien
+field_name: field_technologien
+entity_type: node
+bundle: referenz
+label: Technologien
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      technologien: technologien
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

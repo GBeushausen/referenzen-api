@@ -1,6 +1,19 @@
 _core:
   default_config_hash: 4GIX5Esnc_umpXUBj4IIocRX7Mt5fPhm4AgXfE3E56E
 module:
+  ai: 0
+  ai_agents: 0
+  ai_agents_explorer: 0
+  ai_assistant_api: 0
+  ai_automators: 0
+  ai_chatbot: 0
+  ai_ckeditor: 0
+  ai_dashboard: 0
+  ai_image_alt_text: 0
+  ai_image_bulk_alt_text: 0
+  ai_provider_amazeeio: 0
+  ai_provider_anthropic: 0
+  ai_provider_openai: 0
   announcements_feed: 0
   automated_cron: 0
   automatic_updates: 0
@@ -10,6 +23,7 @@ module:
   bpmn_io: 0
   breakpoint: 0
   canvas: 0
+  canvas_ai: 0
   captcha: 0
   ckeditor5: 0
   coffee: 0
@@ -25,6 +39,8 @@ module:
   easy_breadcrumb: 0
   easy_email: 0
   easy_email_override: 0
+  easy_encryption: 0
+  easy_encryption_admin: 0
   eca: 0
   eca_base: 0
   eca_config: 0
@@ -46,6 +62,8 @@ module:
   image: 0
   jquery_ui: 0
   jquery_ui_resizable: 0
+  jsonapi: 0
+  key: 0
   klaro: 0
   language: 0
   layout_builder: 0
@@ -79,6 +97,7 @@ module:
   sam: 0
   scheduler: 0
   scheduler_content_moderation_integration: 0
+  serialization: 0
   svg_image: 0
   symfony_mailer_lite: 0
   system: 0

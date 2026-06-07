@@ -1,0 +1,29 @@
+uuid: 8e4d7040-f2ff-4ffa-92ae-9c0589f74d77
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bild
+    - media.type.image
+    - node.type.referenz
+id: node.referenz.field_bild
+field_name: field_bild
+entity_type: node
+bundle: referenz
+label: Bild
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: dbd15c7d-acaa-48e8-810e-859c9e53f5ec
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_zeitraum
+    - node.type.referenz
+id: node.referenz.field_zeitraum
+field_name: field_zeitraum
+entity_type: node
+bundle: referenz
+label: Zeitraum
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
